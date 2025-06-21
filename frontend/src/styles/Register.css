@@ -1,0 +1,162 @@
+* {
+    margin:0em;
+}
+
+.hiddentext {
+    padding:5vw 0vw 0vw 5vw;
+    font-size:0.8em;
+    color:#abb2b9;
+    position:relative;
+    left:-5.3vw;
+    margin:0.3em;
+    font-family:system-ui;
+}
+
+.intro img {
+    width:115px;
+    height:40px;
+    padding-top:1em;
+    padding-left:0.8em;
+}
+
+.intro {
+    min-width:30vw;
+    height:80vh;
+    background-color:#2B293D;
+}
+
+.text_intro {
+    color:#fdfcfe;
+    font-family:'Montserrat';
+    font-weight:600;
+    padding-top:3em;
+    padding-left:1.7em;
+    font-size:1.3em;
+}
+
+.input_enter {
+    margin-top:-6.35em;
+    margin-left:20em;
+    height:80vh;
+    background-color:#FFFFFF;
+    position:relative;
+    top:-65vh;
+    border-top-left-radius:1em;
+    border-bottom-left-radius:1em;
+}
+
+.input_enter p {
+    padding-top:2em;
+    padding-left:5em;
+    font-family:'montserrat';
+    font-weight:800;
+    letter-spacing:0.06em;
+    font-size:1.2em;
+}
+
+.input_enter img {
+    width:20px;
+    height:auto;
+    position:relative;
+    top:0.85vh;
+    left:-0.6vw;
+}
+
+.input_enter a {
+    font-size:0.8em;
+    font-weight:lighter;
+    font-family:sans-serif;
+    position:relative;
+    top:4vh;
+    left:6vw;
+    border:1px solid #abb2b9;
+    padding:1em;
+    border-radius:0.5em;
+    cursor:pointer;
+    text-decoration:none;
+    color:black;
+    position:relative;
+    left:4vw;
+    margin-left:3.3em;
+}
+
+.register {
+    padding-left:10vw;
+    position:relative;
+    left:7.5vw;
+    overflow:hiden;
+}
+
+.input_preform {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    max-height: max-content;
+}
+
+.input_preform hr {
+    height:0.1vh;
+    width:11.7vw;
+    position:relative;
+    top:-120.7vh;
+    left:30.6vw;
+    background:#d6dbdf;
+    border:none;
+}
+
+.low_hr {
+    position:relative;
+    top:-124.4vh !important;
+    left:45.5vw !important;
+    width:12.8vw !important;
+}
+
+.or {
+    position:relative;
+    max-width:max-content;
+    max-height:max-content;
+    top:-122.6vh;
+    left:43vw;
+    color:#b2babb;
+    font-weight: 400;
+}
+
+.formulaire {
+    display:flex;
+    flex-direction:column;
+    height:auto;
+    position:relative;
+    top:-120vh;
+    left:30.4vw;
+    width:28.1vw;
+}
+
+.formulaire input {
+    height:5.8vh;
+    font-family: 'montserrat';
+    padding-left: 1em;
+    border:1px solid #b2babb;
+}
+
+.click {
+    max-height:fit-content;
+    position:relative;
+    top:-115vh;
+    left:30.5vw;
+    background-color: #2B293D;
+    color:#FFFFFF;
+    width:28.3vw;
+}
+
+.register h4 {
+    max-width: fit-content;
+    position:relative;
+    top:-110.5vh;
+    left:30.5vw;
+    font-weight:400;
+    font-size: 0.9em;
+}
+
+.register h4 a {
+    text-decoration:none;
+}
