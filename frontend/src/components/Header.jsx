@@ -7,7 +7,7 @@ export default function Header() {
 
     return <section className='flex justify-start items-center flex-col min-h-screen bg-white px-4'>
 
-        <div className='relative w-full max-w-[900px] h-[50px] flex flex-row justify-center bg-[#2B293D] aspect-auto'>
+        <div className='relative w-full h-[50px] flex flex-row justify-center bg-[#2B293D] aspect-auto'>
             <img src="/Ticket.png" alt="Logo-Evently" className='absolute w-10 h-auto -top-1 left-6 -rotate-6 py-1' />
             <h2 className='absolute left-[66px] top-2 font-black text-yellow-300 tracking-wide py-1'>Eventify</h2>
 
