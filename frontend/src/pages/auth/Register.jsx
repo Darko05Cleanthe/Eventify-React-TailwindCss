@@ -4,7 +4,7 @@ export default function Register() {
 
     return <section className='flex justify-center items-center min-h-screen bg-white px-4 overflow-hidden'>
              
-        <div className='relative w-full max-w-[850px] h-[500px] flex flex-row justify-center items-center bg-[#2B293D] aspect-auto'>
+        <div className='relative w-full max-w-[900px] h-[500px] flex flex-row justify-center items-center bg-[#2B293D] aspect-auto'>
 
             <p className='absolute -top-[23px] left-0 text-slate-400 text-sm'>Sign up page</p>
             <img src="/Ticket.png" alt="Logo-Evently" className='absolute w-10 h-auto top-0 left-[15px] -rotate-6' />
@@ -12,7 +12,7 @@ export default function Register() {
             <p className='absolute left-[35px] top-[110px] text-white font-montserrat font-bold text-2xl'>Discover tailored <br /> events. <br />
             Sign up for personalized <br /> recommendations <br /> today!</p>
 
-            <div className='absolute w-full max-w-[473px] h-full max-h-[500px] right-0 bg-slate-50 rounded-tl-3xl rounded-bl-3xl'>
+            <div className='absolute w-full max-w-[500px] h-full max-h-[500px] right-0 bg-slate-50 rounded-tl-3xl rounded-bl-3xl'>
 
             <p className='absolute text-2xl font-bold top-9 left-14 tracking-wide '>Create Account</p>
             <a href="#" className='absolute top-24 left-[60px] text-sm border border-solid border-[#A3A3A3] p-2 flex items-center gap-2 rounded-md hover:scale-105 hover:bg-transparent transition-transform duration-300 hover:text-black'><img src="/src/assets/logo-google.png" alt="Logo Google" className='w-4 h-auto top-[5px] -left-5' />Sign up with Google</a>

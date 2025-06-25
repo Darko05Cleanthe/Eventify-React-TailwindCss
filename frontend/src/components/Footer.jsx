@@ -4,12 +4,12 @@ export default function Footer() {
 
     return <section className="flex flex-col items-center justify-start min-h-screen px-4 bg-white">
 
-        <div className="relative w-full max-w-[900px] h-[50px] bg-[#2B293D] aspect-auto">
+        <div className="relative w-full max-w-screen-lg mx-auto h-[50px] bg-[#2B293D] aspect-auto">
 
             <img src="/CreateEventCTA.png" alt="Footer img"/>
             <button className="absolute right-[32px] top-[55px] flex flex-row gap-2 font-bold bg-[#FFE047] p-[8px] px-6 rounded-md"><img src="/Vector.png" alt="Create Event" className='w-5 h-auto' />Create Event</button>
 
-            <div className="relative w-full max-w-[900px] h-[120px] top-0 flex flex-col bg-[#FFE047] my-7">
+            <div className="relative w-full max-w-screen-lg mx-auto h-[120px] top-0 flex flex-col bg-[#FFE047] my-7">
 
               <h2 className="flex font-[montserrat] text-[#2D2C3C] text-lg font-bold my-4 mx-12">Subscribe to our Newsletter</h2>
               <p className=" font-sans text-sm mx-12 -my-2">Receive our weekly newsletter & updates with new events from <br />your favourite organizers & venues.</p>
@@ -18,7 +18,7 @@ export default function Footer() {
 
             </div>
 
-            <div className="relative flex flex-row flex-1 w-full max-w-[900px] h-[300px] -top-7 bg-[#2B293D] my-auto gap-5">
+            <div className="relative flex flex-row flex-1 w-full max-w-screen-xl mx-auto h-[300px] -top-7 bg-[#2B293D] my-auto gap-5">
                 
                 <nav className="flex flex-col">
                     <h2 className="mx-10 py-6 font-[montserrat] text-white text-md">Company Info</h2>
@@ -64,8 +64,8 @@ export default function Footer() {
                     <button onClick={() => window.location.href = 'https://www.apple.com/fr/app-store/'} className="w-[154px] h-auto cursor-pointer my-3 mx-10"><img src="/src/assets/app-store.png" alt="Telecharger sur App-Store" className="w-[154px] h-auto" /></button>
                 </nav>
                 
-                <hr className='absolute border border-t-1 w-[820px] border-[#A9A9A980] left-[39px] top-[263px]'/>
-                <p className="absolute top-[270px] left-[290px] text-[#A9A9A9]">&copy; 2023 Eventify. All rights reserved.</p>
+                <hr className='absolute border border-t-1 w-[820px] border-[#A9A9A980] left-[110px] top-[263px]'/>
+                <p className="absolute top-[270px] left-[360px] text-[#A9A9A9]">&copy; 2023 Eventify. All rights reserved.</p>
             </div>
 
         </div>
