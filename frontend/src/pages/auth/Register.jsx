@@ -15,8 +15,8 @@ export default function Register() {
             <div className='absolute w-full max-w-[500px] h-full max-h-[500px] right-0 bg-slate-50 rounded-tl-3xl rounded-bl-3xl'>
 
             <p className='absolute text-2xl font-bold top-9 left-14 tracking-wide '>Create Account</p>
-            <a href="#" className='absolute top-24 left-[60px] text-sm border border-solid border-[#A3A3A3] p-2 flex items-center gap-2 rounded-md hover:scale-105 hover:bg-transparent transition-transform duration-300 hover:text-black'><img src="/src/assets/logo-google.png" alt="Logo Google" className='w-4 h-auto top-[5px] -left-5' />Sign up with Google</a>
-            <a href="#" className='absolute text-sm flex items-center gap-2 top-[96px] left-[255px] border border-solid border-[#A3A3A3] p-2 rounded-md hover:scale-105 hover:bg-transparent transition-transform duration-300 hover:text-black'><img src="/src/assets/logo-facebook.png" alt="Logo Facebook" className='w-4 h-auto' />Sign up with Facebook</a>
+            <a href="#" className='absolute top-24 left-[60px] text-sm border border-solid border-[#A3A3A3] p-2 flex items-center gap-2 rounded-md hover:scale-105 hover:bg-transparent transition-transform duration-300 hover:text-black'><img src="/logo-google.png" alt="Logo Google" className='w-4 h-auto top-[5px] -left-5' />Sign up with Google</a>
+            <a href="#" className='absolute text-sm flex items-center gap-2 top-[96px] left-[255px] border border-solid border-[#A3A3A3] p-2 rounded-md hover:scale-105 hover:bg-transparent transition-transform duration-300 hover:text-black'><img src="/logo-facebook.png" alt="Logo Facebook" className='w-4 h-auto' />Sign up with Facebook</a>
 
             <hr className='absolute top-[155px] left-[61px] border-[#6F6F6F4D] border-t-2 w-[167px]' />
             <h4 className='absolute top-[143px] left-[231px] font-sans text-[#A3A3A3]'>OR</h4>

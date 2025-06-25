@@ -60,8 +60,8 @@ export default function Footer() {
 
                 <nav className="flex flex-col">
                     <h2 className="flex flex-col mx-10 py-6 font-[montserrat] text-white text-md text-nowrap">Download The App</h2>
-                    <button onClick={() => window.location.href = 'https://play.google.com/store/apps'} className="w-[154px] mx-10 h-auto cursor-pointer"><img src="/src/assets/play-store.png" alt="Telecharger sur PlayStore" className="w-[154px] h-auto" /></button>
-                    <button onClick={() => window.location.href = 'https://www.apple.com/fr/app-store/'} className="w-[154px] h-auto cursor-pointer my-3 mx-10"><img src="/src/assets/app-store.png" alt="Telecharger sur App-Store" className="w-[154px] h-auto" /></button>
+                    <button onClick={() => window.location.href = 'https://play.google.com/store/apps'} className="w-[154px] mx-10 h-auto cursor-pointer"><img src="/play-store.png" alt="Telecharger sur PlayStore" className="w-[154px] h-auto" /></button>
+                    <button onClick={() => window.location.href = 'https://www.apple.com/fr/app-store/'} className="w-[154px] h-auto cursor-pointer my-3 mx-10"><img src="/app-store.png" alt="Telecharger sur App-Store" className="w-[154px] h-auto" /></button>
                 </nav>
                 
                 <hr className='absolute border border-t-1 w-[820px] border-[#A9A9A980] left-[110px] top-[263px]'/>
