@@ -9,8 +9,6 @@ export default function Home() {
 
         <main className="flex-grow">
 
-
-
         </main>
 
         <Footer />

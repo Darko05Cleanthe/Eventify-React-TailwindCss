@@ -2,12 +2,12 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
 
-    return <section className="flex flex-col items-center justify-start min-h-screen px-4 bg-white">
+    return <section className="flex flex-col items-center justify-end min-h-screen px-4 bg-white">
 
         <div className="relative w-full max-w-screen-lg mx-auto h-[50px] bg-[#2B293D] aspect-auto">
 
             <img src="/CreateEventCTA.png" alt="Footer img"/>
-            <button className="absolute right-[32px] top-[55px] flex flex-row gap-2 font-bold bg-[#FFE047] p-[8px] px-6 rounded-md"><img src="/Vector.png" alt="Create Event" className='w-5 h-auto' />Create Event</button>
+            <button className="absolute right-[32px] top-[55px] flex flex-row gap-2 font-bold bg-[#FFE047] p-[8px] px-6 rounded-md">Create Event</button>
 
             <div className="relative w-full max-w-screen-lg mx-auto h-[120px] top-0 flex flex-col bg-[#FFE047] my-7">
 
@@ -22,40 +22,40 @@ export default function Footer() {
                 
                 <nav className="flex flex-col">
                     <h2 className="mx-10 py-6 font-[montserrat] text-white text-md">Company Info</h2>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">About Us</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Contact Us</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Careers</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">FAQs</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Terms of Service</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Privacy Policy</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">About Us</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Contact Us</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Careers</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">FAQs</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Terms of Service</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Privacy Policy</Link>
                 </nav>
 
                 <nav className="flex flex-col -mx-10"> 
                     <h2 className="flex flex-col mx-10 py-6 font-[montserrat] text-white text-md">Help</h2>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Account Support</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Listing Events</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Event ticketing</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Ticket Purchase Terms & Conditions</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Account Support</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Listing Events</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Event ticketing</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Ticket Purchase Terms & Conditions</Link>
                 </nav>
                     
                 <nav className="flex flex-col -mx-10">
                     <h2 className="flex flex-col mx-10 py-6 font-[montserrat] text-white text-md">Categories</h2>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Concert and Gigs</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Festivals & Lifestyle</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Business & Networking</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Foods & Drinks</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Performing Arts</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Sports & Outdoors</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Exhibitions</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Workshops, Conferences & Classes</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Concert and Gigs</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Festivals & Lifestyle</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Business & Networking</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Foods & Drinks</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Performing Arts</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Sports & Outdoors</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Exhibitions</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Workshops, Conferences & Classes</Link>
                 </nav>
                 
                 <nav className="flex flex-col -mx-10">
                     <h2 className="flex flex-col mx-10 py-6 font-[montserrat] text-white text-md">Follow us</h2>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Facebook</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Instagram</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Twitter</Link>
-                    <Link path='' className="text-[#A9A9A9] mx-10 text-sm">Youtube</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Facebook</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Instagram</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Twitter</Link>
+                    <Link to='' className="text-[#A9A9A9] mx-10 text-sm">Youtube</Link>
                 </nav>
 
                 <nav className="flex flex-col">

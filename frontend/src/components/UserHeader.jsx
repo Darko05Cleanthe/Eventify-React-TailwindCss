@@ -2,9 +2,12 @@ import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faStar } from '@fortawesome/free-regular-svg-icons'
+import { faTicket } from '@fortawesome/free-solid-svg-icons'
+import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
-export default function HeaderUser() {
+export default function UserHeader() {
 
     return <section className='flex justify-start items-center flex-col min-h-screen bg-white px-4'>
     
@@ -14,23 +17,34 @@ export default function HeaderUser() {
     
                 <nav className="flex gap-8 items-stretch -ml-28">
     
-                <Link path='' className='flex text-white items-center font-[montserrat] text-sm'>Home</Link>
-                <Link path='' className='flex text-white items-center font-[montserrat] text-sm'>Event</Link>
-                <Link path='' className='flex text-white items-center font-[montserrat] text-sm'>About</Link>
-                <Link path='' className='flex text-white items-center font-[montserrat] text-sm'>Contact</Link>
+                <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Home</Link>
+                <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Event</Link>
+                <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>About</Link>
+                <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Contact</Link>
     
                 </nav>
     
                 
     
-                <div className="absolute top-[15px] right-0 flex justify-end gap-2">
+                <div className="absolute top-[15px] right-0 flex justify-end gap-10">
     
-                <Link path="" className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
-                 {/* <Link to="/login" className="text-white font-[montserrat] text-sm">
-    <img src="/ProfileButton.png" alt="Profil" className="w-[152px] h-auto object-cover rounded-full" />
-  </Link> */}
-                <Link to="/register" className="flex text-black font-[montserrat] border border-[#FFE047] p-1 bg-[#FFE047] -my-2 mx-4 rounded-lg">Sign up</Link>
-                
+                <Link to="" className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
+
+                <h6 className="absolute top-[15px] mr-[147px] text-white font-[montserrat] text-xs">Tickets</h6>
+                <Link to=''><FontAwesomeIcon icon={faTicket} className="text-white mb-1 -rotate-12" /></Link>
+
+                <h6 className="absolute top-[15px] mr-[74px] text-white font-[montserrat] text-xs">Interested</h6>
+                <Link to=''><FontAwesomeIcon icon={faStar} className="text-white mb-1" /></Link>
+
+                <Link to="/profile" className="text-white font-[montserrat] text-sm">
+                <FontAwesomeIcon icon={faUser} className="text-white mx-6" /></Link>
+                <h6 className="absolute top-[16px] mr-3 text-white font-[montserrat] text-xs">Profile</h6>
+
+                <select name="Option Profile" id="" className="border-l-2 p-3 outline-none bg-white text-sm font-[montserrat] hidden" >
+                    <option value="">Account Info</option> 
+                    <option value="">Change Email</option>
+                    <option value="">Password</option>           
+                </select>
             
     
                 </div>

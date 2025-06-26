@@ -14,10 +14,10 @@ export default function Header() {
 
             <nav className="flex gap-10 items-stretch -ml-28">
 
-            <a href="#" className='flex text-white items-center font-[montserrat] text-sm'>Home</a>
-            <a href="#" className='flex text-white items-center font-[montserrat] text-sm'>Event</a>
-            <a href="#" className='flex text-white items-center font-[montserrat] text-sm'>About</a>
-            <a href="#" className='flex text-white items-center font-[montserrat] text-sm'>Contact</a>
+            <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Home</Link>
+            <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Event</Link>
+            <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>About</Link>
+            <Link to='' className='flex text-white items-center font-[montserrat] text-sm'>Contact</Link>
 
             </nav>
 
@@ -25,7 +25,7 @@ export default function Header() {
 
             <div className="absolute top-[15px] right-0 flex justify-end gap-2">
 
-            <Link path='' className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
+            <Link to='' className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
             <Link to="/login" className="flex text-white font-[montserrat] text-sm">Login</Link>
             <Link to="/register" className="flex text-black font-[montserrat] border border-[#FFE047] p-1 bg-[#FFE047] -my-2
             mx-4 rounded-lg">Sign up</Link>

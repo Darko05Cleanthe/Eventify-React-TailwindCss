@@ -2,7 +2,7 @@ import Login from './pages/auth/Login'
 import Register from './pages/auth/Register'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
-import HeaderUser from './components/HeaderUser'
+import UserHome from './pages/user/UserHome'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-    <Route path='/headerUser' element={<HeaderUser />} />
+    <Route path='/userhome' element={<UserHome />} />
     <Route path="/" element={<Home />} />
     <Route path='/register' element={<Register />} />
     <Route path='/login' element={<Login />} />
