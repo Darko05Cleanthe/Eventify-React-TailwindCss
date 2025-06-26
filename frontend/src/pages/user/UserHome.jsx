@@ -4,16 +4,12 @@ import Footer from "../../components/Footer"
 
 export default function UserHome() {
 
-    return (<section className="flex flex-col min-h-screen">
-        
+    return (<section className="min-h-screen flex flex-col">
+
         <UserHeader />
 
-        <main className="flex-grow">
-
-        </main>
-
+        
         <Footer />
 
-    </section>
-    )
+           </section>)
 }

@@ -3,6 +3,7 @@ import Register from './pages/auth/Register'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import UserHome from './pages/user/UserHome'
+import UserProfile from './pages/user/UserProfile'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
+    <Route path='/userprofile' element={<UserProfile />} />
     <Route path='/userhome' element={<UserHome />} />
     <Route path="/" element={<Home />} />
     <Route path='/register' element={<Register />} />

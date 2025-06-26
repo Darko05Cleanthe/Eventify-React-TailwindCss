@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons'
-import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import { faStar } from '@fortawesome/free-regular-svg-icons'
 import { faTicket } from '@fortawesome/free-solid-svg-icons'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
 
 
-export default function UserHeader() {
+export default function HeaderProfile() {
 
     return <section className='flex justify-start items-center flex-col min-h-screen bg-white px-4'>
     
@@ -24,8 +22,6 @@ export default function UserHeader() {
     
                 </nav>
     
-                
-    
                 <div className="absolute top-[15px] right-0 flex justify-end gap-10">
     
                 <Link to="" className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
@@ -36,7 +32,7 @@ export default function UserHeader() {
                 <h6 className="absolute top-[15px] mr-[74px] text-white font-[montserrat] text-xs">Interested</h6>
                 <Link to=''><FontAwesomeIcon icon={faStar} className="text-white mb-1" /></Link>
 
-                <Link to="/userprofile" className="text-white font-[montserrat] text-sm">
+                <Link to="/profile" className="text-white font-[montserrat] text-sm">
                 <FontAwesomeIcon icon={faUser} className="text-white mx-6" /></Link>
                 <h6 className="absolute top-[16px] mr-3 text-white font-[montserrat] text-xs">Profile</h6>
 
@@ -46,32 +42,7 @@ export default function UserHeader() {
                     <option value="">Password</option>           
                 </select>
             
-    
                 </div>
-    
-            </div>
-    
-            <div className='relative w-full max-w-screen-lg mx-auto'>
-    
-            <img src="/home-img.jpg" alt="Image-concert" className="w-full h-[300px] object-cover object-bottom overflow-hidden brightness-75"/>
-    
-            <div className="absolute inset-0 justify-end items-end py-16 px-48">
-    
-            <p className="font-[montserrat] text-white text-2xl font-bold">Don't miss out!</p>
-            <p className="font-[montserrat] text-white text-2xl font-bold text-nowrap">Explore the <span className="text-yellow-400">vibrant events</span> happening locally and globally.</p>
-    
-            <div className="flex items-center m-10">
-    
-            <FontAwesomeIcon icon={faMagnifyingGlass} className="absolute text-gray-500 m-3"/>   
-            <input type="search" placeholder="Search Events, Categories, Locations..." className="w-[500px] rounded-tr-none rounded-br-none outline-none p-[12px] px-10 text-sm rounded-tl-lg rounded-bl-lg" />
-            <select name="Localisation" id="" className="border-l-2 border-x-gray-500 text-[#5A5A5A] w-[150px] p-3 outline-none bg-white text-sm rounded-tr-lg rounded-br-lg px-6">
-                <option value="">Mumbay</option>
-            </select>
-            <FontAwesomeIcon icon={faLocationDot} className="absolute text-blackgray-500 right-[343px]"/>
-            
-            </div>
-    
-            </div>
     
             </div>
     
