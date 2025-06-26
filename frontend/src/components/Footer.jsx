@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
 
-    return <section className="flex flex-col items-center justify-end min-h-screen px-4 bg-white">
+    return <section className="flex flex-col items-center justify-end px-4 bg-white">
 
         <div className="relative w-full max-w-screen-lg mx-auto h-[50px] bg-[#2B293D] aspect-auto">
 

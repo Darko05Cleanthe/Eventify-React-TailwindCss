@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
+import { Outlet } from "react-router-dom"
 import HeaderProfile from "../../components/HeaderProfile"
 import Footer from "../../components/Footer"
 
@@ -8,15 +11,26 @@ export default function UserProfile() {
 
         <HeaderProfile />
 
-        <div className="relative flex flex-row flex-grow w-full max-w-screen-lg mx-auto">
+        <div className="relative flex flex-row w-full max-w-screen-lg mx-auto">
 
-            <div className="absolute h-[1290px] -top-[629px] w-1/4 bg-[#EEEEEE] text-[#2D2C3C] p-4 font-[montserrat]">
-            <h4 className="text-lg font-semibold mb-4">Account Settings</h4>
-            
+            <div className="w-1/4 bg-[#EEEEEE] text-[#2D2C3C] font-[montserrat]">
+
+            <h4 className="text-lg font-semibold m-4 mx-8">Account Settings</h4>
+
+            <nav className="w-full flex flex-col text-sm">
+
+            <NavLink to='account-info' className={({ isActive }) => `py-2 px-8 ${ isActive ? 'bg-slate-50' : ''}`}>Account Info</NavLink>
+            <NavLink to='change-email' className={({ isActive }) => `py-2 px-8 ${ isActive ? 'bg-slate-50' : ''}`}>Change Email</NavLink>
+            <NavLink to='password' className={({ isActive }) => `py-2 px-8 ${ isActive ? 'bg-slate-50' : ''}`}>Password</NavLink>
+
+            </nav>
+
             </div>
 
-            <div className="flex-grow bg-white p-4">
+            <div className="flex flex-col flex-grow bg-white p-4">
 
+                <Outlet />
+ 
             </div>
 
         </div>
