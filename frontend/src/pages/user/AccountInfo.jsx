@@ -20,28 +20,28 @@ export default function AccountInfo() {
 
                 <div className="flex flex-row">
 
-                <label htmlFor="prenom" className="w-[100px] font-sans font-semibold px-2">First Name:</label>
+                <label htmlFor="prenom" className="w-[100px] font-sans font-semibold px-2 py-2">First Name:</label>
                 <input type="text" id="prenom" placeholder="Enter First name" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
                 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="nom" className="w-[100px] font-sans font-semibold px-2">Last Name:</label>
+                <label htmlFor="nom" className="w-[100px] font-sans font-semibold px-2 py-2">Last Name:</label>
                 <input type="text" id="nom" placeholder="Enter Last name" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="website" className="w-[100px] font-sans font-semibold px-2">Website:</label>
+                <label htmlFor="website" className="w-[100px] font-sans font-semibold px-2 py-2">Website:</label>
                 <input type="text" id="website" placeholder="Enter Website" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="company" className="w-[100px] font-sans font-semibold px-2">Company:</label>
+                <label htmlFor="company" className="w-[100px] font-sans font-semibold px-2 py-2">Company:</label>
                 <input type="text" id="company" placeholder="Enter company name" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
@@ -59,35 +59,35 @@ export default function AccountInfo() {
 
                 <div className="flex flex-row">
 
-                <label htmlFor="phone" className="w-[100px] font-sans font-semibold px-2">Phone Number:</label>
+                <label htmlFor="phone" className="w-[100px] font-sans font-semibold px-2 py-2">Phone Number:</label>
                 <input type="text" id="phone" placeholder="Enter phone number" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
                 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="address" className="w-[100px] font-sans font-semibold px-2">Adress:</label>
+                <label htmlFor="address" className="w-[100px] font-sans font-semibold px-2 py-2">Adress:</label>
                 <input type="text" id="address" placeholder="Enter address" className="border border-[#828282B2] w-[400px] h-[70px] rounded-sm px-3"/>
 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="city" className="w-[100px] font-sans font-semibold px-2">City/Town:</label>
+                <label htmlFor="city" className="w-[100px] font-sans font-semibold px-2 py-2">City/Town:</label>
                 <input type="text" id="city" placeholder="Enter city" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="country" className="w-[100px] font-sans font-semibold px-2">Country:</label>
+                <label htmlFor="country" className="w-[100px] font-sans font-semibold px-2 py-2">Country:</label>
                 <input type="text" id="country" placeholder="Enter country" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
 
                 <div className="flex flex-row">
 
-                <label htmlFor="pincode" className="w-[100px] font-sans font-semibold px-2">Pincode:</label>
+                <label htmlFor="pincode" className="w-[100px] font-sans font-semibold px-2 py-2">Pincode:</label>
                 <input type="text" id="pincode" placeholder="Enter pincode" className="border border-[#828282B2] p-2 w-[400px] rounded-sm px-3 py-[4px]"/>
 
                 </div>
