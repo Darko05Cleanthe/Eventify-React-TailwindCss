@@ -32,7 +32,7 @@ export default function HeaderProfile() {
                 <h6 className="absolute top-[15px] mr-[74px] text-white font-[montserrat] text-xs">Interested</h6>
                 <Link to=''><FontAwesomeIcon icon={faStar} className="text-white mb-1" /></Link>
 
-                <Link to="/profile" className="text-white font-[montserrat] text-sm">
+                <Link to="/userprofile" className="text-white font-[montserrat] text-sm">
                 <FontAwesomeIcon icon={faUser} className="text-white mx-6" /></Link>
                 <h6 className="absolute top-[16px] mr-3 text-white font-[montserrat] text-xs">Profile</h6>
 

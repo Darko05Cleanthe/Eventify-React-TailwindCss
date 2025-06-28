@@ -30,7 +30,7 @@ export default function Login() {
 
                 </form>
     
-                    <Link to='' className='absolute top-[390px] left-[60px] w-[375px] bg-[#2B293D] text-white p-2 my-4'>Login</Link>     
+                    <Link to='/userhome' className='absolute top-[390px] left-[60px] w-[375px] bg-[#2B293D] text-white p-2 my-4'>Login</Link>     
     
                     <h4 className='absolute top-[455px] left-[62px] text-[#636363] text-sm'>Don't have an account ? <Link to="/register" className='text-black'>Sign up</Link></h4>
     
