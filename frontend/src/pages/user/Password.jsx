@@ -33,6 +33,6 @@ export default function Password() {
 
         </form>
 
-        <Link to='' className="relative font-sans font-bold bg-[#2B293D] text-white p-2 rounded-lg px-8 w-[180px] text-nowrap text-sm ml-4 mt-8">Save Password</Link>
+        <Link to='' className="relative font-sans font-bold bg-[#2B293D] text-white p-2 rounded-lg px-8 w-[180px] text-nowrap text-sm ml-4 mt-5 mb-5">Save Password</Link>
     </section>
 }

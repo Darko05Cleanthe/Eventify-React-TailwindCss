@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom"
 import { Outlet } from "react-router-dom"
 import HeaderProfile from "../../components/HeaderProfile"
 import Footer from "../../components/Footer"
+import FooterProfile from "../../components/FooterProfile"
 
 
 export default function UserProfile() {
@@ -35,7 +36,7 @@ export default function UserProfile() {
 
         </div>
 
-        <Footer />
+        <FooterProfile />
 
            </section>)
 }

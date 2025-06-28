@@ -28,7 +28,7 @@ export default function UserHeader() {
     
                 <div className="absolute top-[15px] right-0 flex justify-end gap-10">
     
-                <Link to="" className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
+                <Link to="/create-event" className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
 
                 <h6 className="absolute top-[15px] mr-[147px] text-white font-[montserrat] text-xs">Tickets</h6>
                 <Link to=''><FontAwesomeIcon icon={faTicket} className="text-white mb-1 -rotate-12" /></Link>

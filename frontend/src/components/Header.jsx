@@ -25,7 +25,7 @@ export default function Header() {
 
             <div className="absolute top-[15px] right-0 flex justify-end gap-2">
 
-            <Link to='' className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
+            <Link to='/create-event' className='flex text-white px-4 font-[montserrat] text-sm'>Create Event</Link>
             <Link to="/login" className="flex text-white font-[montserrat] text-sm">Login</Link>
             <Link to="/register" className="flex text-black font-[montserrat] border border-[#FFE047] p-1 bg-[#FFE047] -my-2
             mx-4 rounded-lg">Sign up</Link>
