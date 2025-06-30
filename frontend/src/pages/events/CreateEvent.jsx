@@ -11,13 +11,13 @@ export default function CreateEvent() {
         <div className="relative flex flex-col flex-grow w-full max-w-screen-lg mx-auto mb-40">
              
             <Link to='/userhome'><img src="/fleche.png" alt="" className="relative w-5 h-auto top-14 ml-6"/></Link>
-            <p className="font-[montserrat] text-[#2D2C3C] font-bold text-xl m-8 mx-20">Create a New Event</p>
+            <p className="font-[montserrat] text-[#2D2C3C] font-bold text-xl m-8 mx-20">Event Title</p>
             <img src="/Progress.png" alt="" className="h-10 mx-14 px-6"/>
 
             <div className="flex flex-col mx-20 m-20">
 
             <form action="get" method="" className="flex flex-col">
-            <h4 className="text-left font-[montserrat] font-medium text-2xl ml-32">Event Details</h4>
+            <h4 className="text-left font-[montserrat] font-medium text-lg ml-32">Event Details</h4>
 
             <div className="flex flex-row font-sans my-6 mx-12">
 
@@ -35,7 +35,7 @@ export default function CreateEvent() {
 
             </div>
 
-            <h4 className="text-left font-[montserrat] font-medium text-2xl ml-32 my-5">Date & Time</h4>
+            <h4 className="text-left font-[montserrat] font-medium text-lg ml-32 my-5">Date & Time</h4>
 
             <div className="flex flex-row font-sans my-6 mx-10">
 
@@ -64,7 +64,7 @@ export default function CreateEvent() {
 
             </div>
 
-            <h4 className="text-left font-[montserrat] font-medium text-2xl ml-32 my-5">Location</h4>
+            <h4 className="text-left font-[montserrat] font-medium text-lg ml-32 my-5">Location</h4>
 
             <div className="flex flex-row font-sans my-6 mx-2">
 
@@ -75,7 +75,7 @@ export default function CreateEvent() {
 
             </div>
 
-            <h4 className="text-left font-[montserrat] font-medium text-2xl ml-32 my-5">Additional Information</h4>
+            <h4 className="text-left font-[montserrat] font-medium text-lg ml-32 my-5">Additional Information</h4>
 
             <div className="flex flex-row font-sans my-6 mx-1">
                 
@@ -86,7 +86,7 @@ export default function CreateEvent() {
 
             </form>
 
-            <Link to='' className="absolute font-sans font-bold bg-[#2B293D] text-white p-2 rounded-lg px-8 w-[180px] text-nowrap text-sm top-[1200px] left-[650px]">Save & Continue</Link>
+            <Link to='/event-title' className="absolute font-sans font-bold bg-[#2B293D] text-white p-2 rounded-lg px-8 w-[180px] text-nowrap text-sm top-[1200px] left-[650px]">Save & Continue</Link>
 
         </div>
 
