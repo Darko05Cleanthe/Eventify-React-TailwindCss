@@ -55,6 +55,7 @@ export default function EventTitleInfo() {
                 <Link to='' className="flex font-sans font-bold bg-[#2B293D] text-white rounded-lg px-8 w-[180px] text-nowrap text-sm h-[40px] items-center">Publish Event</Link>
         
             </div>
+            
 
         </div>
 
