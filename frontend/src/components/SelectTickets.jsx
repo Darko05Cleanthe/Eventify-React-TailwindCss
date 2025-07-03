@@ -21,10 +21,12 @@ export default function SelectTickets() {
 
     }
 
-    return <section className="relative flex flex-col min-h-screen justify-center items-center bg-black">
+    return <section className="flex flex-col min-h-screen justify-center items-center bg-slate-400">
 
-        <div className="flex flex-col w-full max-w-[440px] h-[450px] bg-slate-300">
-            
+        <div className="relative flex flex-col w-full max-w-[431px] h-[450px] bg-slate-300">
+
+            <button className="cursor-pointer"><img src="/Closebutton.png" alt="" className="absolute w-5 h-auto right-0 py-1"/></button>
+
             <p className="w-full px-5 bg-white">Select Tickets</p>
 
             <div className="flex flex-row mx-5 my-3">
@@ -61,7 +63,7 @@ export default function SelectTickets() {
 
             </div>
 
-                <Link to='' className="absolute font-sans font-semibold bg-[#2B293D] text-white mx-10 my-1 w-[350px] text-center text-lg h-[40px] flex justify-center items-center bottom-[120px] rounded-sm">Proceed<span className="ml-2">&gt;</span></Link>
+                <Link to='' className="absolute font-sans font-semibold bg-[#2B293D] text-white mx-10 my-1 w-[350px] text-center text-lg h-[40px] flex justify-center items-center bottom-0 rounded-sm">Proceed<span className="ml-2">&gt;</span></Link>
 
         </div>
 

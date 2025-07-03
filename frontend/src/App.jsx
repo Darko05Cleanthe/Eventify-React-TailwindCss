@@ -12,6 +12,8 @@ import EventTitle from './pages/events/EventTitle'
 import EventTitleType from './pages/events/EventTitle-1'
 import EventTitleInfo from './pages/events/EventTitleInfo'
 import SelectTickets from './components/SelectTickets'
+import Share from './components/Share'
+import Detail from './components/AttendeerDetails'
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <Route path='change-email' element={<ChangeEmail/>} />
       <Route path='password' element={<Password/>} />
     </Route>
+    <Route path='/details' element={<Detail />} />
+    <Route path='/share' element={<Share />} />
     <Route path='/select-tickets' element={<SelectTickets />} />
     <Route path='/event-title-1' element={<EventTitleType />}/>
     <Route path='/event-title-info' element={<EventTitleInfo />}/>
