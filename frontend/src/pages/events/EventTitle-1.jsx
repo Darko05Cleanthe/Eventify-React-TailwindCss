@@ -1,4 +1,4 @@
-import HeaderProfile from "../../components/HeaderProfile"
+import HeaderProfile from "../../components/SimpleHeader"
 import FooterProfile from "../../components/FooterProfile"
 import { Link } from "react-router-dom"
 

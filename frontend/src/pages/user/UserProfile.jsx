@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { NavLink } from "react-router-dom"
 import { Outlet } from "react-router-dom"
-import HeaderProfile from "../../components/HeaderProfile"
+import HeaderProfile from "../../components/SimpleHeader"
 import Footer from "../../components/Footer"
 import FooterProfile from "../../components/FooterProfile"
 

@@ -14,6 +14,8 @@ import EventTitleInfo from './pages/events/EventTitleInfo'
 import SelectTickets from './components/SelectTickets'
 import Share from './components/Share'
 import Detail from './components/AttendeerDetails'
+import Order from './components/OrderSummary'
+import ShareInterests from './pages/events/ShareInterests'
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
       <Route path='change-email' element={<ChangeEmail/>} />
       <Route path='password' element={<Password/>} />
     </Route>
+    <Route path='/share-interests' element={<ShareInterests />} />
+    <Route path='/order-summary' element={<Order />} />
     <Route path='/details' element={<Detail />} />
     <Route path='/share' element={<Share />} />
     <Route path='/select-tickets' element={<SelectTickets />} />
