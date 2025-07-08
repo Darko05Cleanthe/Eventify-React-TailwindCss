@@ -1,5 +1,7 @@
 import Header from "../components/Header"
 import Footer from "../components/Footer"
+import HomeContent from "../components/HomeContent"
+import { Link } from "react-router-dom"
 
 export default function Home() {
 
@@ -7,10 +9,8 @@ export default function Home() {
 
         <Header />
 
-        <main className="flex-grow">
-
-        </main>
-
+        <HomeContent />
+        
         <Footer />
 
     </section>

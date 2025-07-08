@@ -41,7 +41,7 @@ export default function Header() {
         <div className="absolute inset-0 justify-end items-end py-16 px-48">
 
         <p className="font-[montserrat] text-white text-2xl font-bold">Don't miss out!</p>
-        <p className="font-[montserrat] text-white text-2xl font-bold text-nowrap">Explore the <span className="text-yellow-400">vibrant events</span>happening locally and globally.</p>
+        <p className="font-[montserrat] text-white text-2xl font-bold text-nowrap">Explore the <span className="text-yellow-400">vibrant events</span> happening locally and globally.</p>
 
         <div className="flex items-center m-10">
 

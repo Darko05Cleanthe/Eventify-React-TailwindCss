@@ -20,10 +20,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Concerts</p>
-                    <p className="border-2 rounded-xl px-2">Music Festivals</p>
-                    <p className="border-2 rounded-xl px-2">Music Workshops</p>
-                    <p className="border-2 rounded-xl px-2">Dj Nights</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Concerts</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Music Festivals</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Music Workshops</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Dj Nights</p>
 
                 </div>
 
@@ -33,10 +33,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Art Exhibitions</p>
-                    <p className="border-2 rounded-xl px-2">Cultural Festivals</p>
-                    <p className="border-2 rounded-xl px-2">Theater Plays</p>
-                    <p className="border-2 rounded-xl px-2">Dance Performances</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Art Exhibitions</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Cultural Festivals</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Theater Plays</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Dance Performances</p>
 
                 </div>
 
@@ -46,10 +46,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Food Festivals</p>
-                    <p className="border-2 rounded-xl px-2">Wine Tastings</p>
-                    <p className="border-2 rounded-xl px-2">Cooking classes</p>
-                    <p className="border-2 rounded-xl px-2">Beer Festivals</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Food Festivals</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Wine Tastings</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Cooking classes</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Beer Festivals</p>
 
                 </div>
 
@@ -72,10 +72,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Marathons</p>
-                    <p className="border-2 rounded-xl px-2">Yoga Sessions</p>
-                    <p className="border-2 rounded-xl px-2">Fitness Workshops</p>
-                    <p className="border-2 rounded-xl px-2">Sporting Events</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Marathons</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Yoga Sessions</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Fitness Workshops</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Sporting Events</p>
 
                 </div>
 
@@ -85,10 +85,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Conferences</p>
-                    <p className="border-2 rounded-xl px-2">Seminars</p>
-                    <p className="border-2 rounded-xl px-2">Workshops</p>
-                    <p className="border-2 rounded-xl px-2">Networking Events</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Conferences</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Seminars</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Workshops</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Networking Events</p>
 
                 </div>
 
@@ -98,10 +98,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Family-Friendly Events</p>
-                    <p className="border-2 rounded-xl px-2">Children's Workshops</p>
-                    <p className="border-2 rounded-xl px-2">Kid-Friendly Shows</p>
-                    <p className="border-2 rounded-xl px-2">Educational Activities</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Family-Friendly Events</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Children's Workshops</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Kid-Friendly Shows</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Educational Activities</p>
 
                 </div>
 
@@ -111,10 +111,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Tech Conferences</p>
-                    <p className="border-2 rounded-xl px-2">Hackathons</p>
-                    <p className="border-2 rounded-xl px-2">Startup Events</p>
-                    <p className="border-2 rounded-xl px-2">Gadget Expos</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Tech Conferences</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Hackathons</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Startup Events</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Gadget Expos</p>
 
                 </div>
 
@@ -124,10 +124,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Stand-up Comedy</p>
-                    <p className="border-2 rounded-xl px-2">Improv Nights</p>
-                    <p className="border-2 rounded-xl px-2">Comedy Festivals</p>
-                    <p className="border-2 rounded-xl px-2">Magic Shows</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Stand-up Comedy</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Improv Nights</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Comedy Festivals</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Magic Shows</p>
 
                 </div>
 
@@ -137,10 +137,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Fundraising Events</p>
-                    <p className="border-2 rounded-xl px-2">Charity Galas</p>
-                    <p className="border-2 rounded-xl px-2">Benefit Concerts</p>
-                    <p className="border-2 rounded-xl px-2">Auctions & Fundraisers</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Fundraising Events</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Charity Galas</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Benefit Concerts</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Auctions & Fundraisers</p>
 
                 </div>
 
@@ -150,10 +150,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">Lectures & Talks</p>
-                    <p className="border-2 rounded-xl px-2">Workshops</p>
-                    <p className="border-2 rounded-xl px-2">Educational Seminars</p>
-                    <p className="border-2 rounded-xl px-2">Skills-Bulding Sessions</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Lectures & Talks</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Workshops</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Educational Seminars</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Skills-Bulding Sessions</p>
 
                 </div>
 
@@ -163,10 +163,10 @@ export default function ShareInterests() {
 
                 <div className="flex flex-row text-sm font-light gap-3 ml-8">
   
-                    <p className="border-2 rounded-xl px-2">City Tours</p>
-                    <p className="border-2 rounded-xl px-2">Adventure Travel</p>
-                    <p className="border-2 rounded-xl px-2">Cultural Experiences</p>
-                    <p className="border-2 rounded-xl px-2">Cruise Vacations</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">City Tours</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Adventure Travel</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Cultural Experiences</p>
+                    <p className="border-2 border-[#6F6F6F] rounded-xl px-2">Cruise Vacations</p>
 
                 </div>
 

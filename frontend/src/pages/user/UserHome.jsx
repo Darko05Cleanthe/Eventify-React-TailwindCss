@@ -1,5 +1,6 @@
 import UserHeader from "../../components/UserHeader"
 import Footer from "../../components/Footer"
+import HomeContent from "../../components/HomeContent"
 
 
 export default function UserHome() {
@@ -8,6 +9,7 @@ export default function UserHome() {
 
         <UserHeader />
 
+        <HomeContent />
         
         <Footer />
 
