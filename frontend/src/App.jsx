@@ -16,6 +16,7 @@ import Share from './components/Share'
 import Detail from './components/AttendeerDetails'
 import Order from './components/OrderSummary'
 import ShareInterests from './pages/events/ShareInterests'
+import EventInfo from './components/EventInfo'
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
     <Route path="/" element={<Home />} />
     <Route path='/register' element={<Register />} />
     <Route path='/login' element={<Login />} />
+    <Route path='/event-info' element ={<EventInfo />} />
     </Routes>
     </BrowserRouter>
     </>

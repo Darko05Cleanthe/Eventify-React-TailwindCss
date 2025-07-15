@@ -11,14 +11,14 @@ function Categories({imgUrl,title}) {
 
 }
 
-function Event({imgUrl,eventCategorie,title,month,day,location,time,price,isFree}) {
+export function Event({imgUrl,eventCategorie,title,month,day,location,time,price,isFree}) {
 
-    return <div className="relative">
+    return <div className="relative self-center">
 
-        <img src={imgUrl} alt={title} className="w-[290px] h-[150px] rounded-lg"/>
+        <img src={imgUrl} alt={title} className="h-[150px] rounded-lg"/>
         <p className="absolute top-[122px] bg-yellow-300 text-black text-sm font-['montserrat'] p-1 rounded-tr-sm rounded-br-sm">{eventCategorie}</p>
 
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 gap-3">
 
         <div className="relative flex flex-col items-start m-2">
 
@@ -32,7 +32,7 @@ function Event({imgUrl,eventCategorie,title,month,day,location,time,price,isFree
             <p className="font-medium font-['montserrat'] text-lg">{title}</p>
             <p className="text-sm font-['montserrat']">{location}</p>
             <p className="text-sm font-['montserrat']">{time}</p>
-            <p className="text-sm font-['montserrat']"><span className="flex flex-row gap-1"><img src="/Vector.png" alt="Ticket" /> {isFree ? "FREE" : price}</span></p>
+            <p className="text-sm font-['montserrat']"><span className="flex flex-row gap-1"><img src="/Vector.png" alt="Ticket" />{isFree ? "FREE" : price}</span></p>
 
         </div>
 
@@ -85,6 +85,7 @@ export default function HomeContent() {
     ]
 
     const EventInfo = [
+
     {
         imgUrl : "/Image.png",
         eventCategorie : "Travel & Adventure",
