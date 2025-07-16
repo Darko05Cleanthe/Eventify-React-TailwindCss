@@ -17,6 +17,8 @@ import Detail from './components/AttendeerDetails'
 import Order from './components/OrderSummary'
 import ShareInterests from './pages/events/ShareInterests'
 import EventInfo from './components/EventInfo'
+import SearchResults from './pages/events/SearchResults'
+import InterestedEvents from './pages/events/InterestedEvents'
 
 
 function App() {
@@ -31,7 +33,7 @@ function App() {
       <Route path='change-email' element={<ChangeEmail/>} />
       <Route path='password' element={<Password/>} />
     </Route>
-    <Route path='/share-interests' element={<ShareInterests />} />
+    <Route path='/share' element={<ShareInterests />} />
     <Route path='/order-summary' element={<Order />} />
     <Route path='/details' element={<Detail />} />
     <Route path='/share' element={<Share />} />
@@ -45,6 +47,8 @@ function App() {
     <Route path='/register' element={<Register />} />
     <Route path='/login' element={<Login />} />
     <Route path='/event-info' element ={<EventInfo />} />
+    <Route path='/search-result' element ={<SearchResults />} />
+    <Route path='/favoris' element ={<InterestedEvents />} />
     </Routes>
     </BrowserRouter>
     </>
