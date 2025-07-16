@@ -1,7 +1,12 @@
+import { useState } from "react"
 import { Link } from "react-router-dom"
+import PhoneInput from 'react-phone-input-2'
+import 'react-phone-input-2/lib/style.css'
 
 
 export default function Detail() {
+
+    const [phone, setPhone] = useState('')
 
     return <section className="flex flex-col items-center justify-center min-h-screen bg-slate-400">
 
@@ -12,12 +17,12 @@ export default function Detail() {
 
             <div className="flex flex-row justify-between">
 
-                <h4 className="m-2">Title</h4>
-                <h5 className="m-2">Date</h5>
+                <h4 className="m-2 text-sm text-[#5A5A5A] ml-3">Sound Of Christmas 2023</h4>
+                <h5 className="m-2 text-sm text-[#5A5A5A]">Saturday, 2 December 2023</h5>
 
             </div>
 
-            <p className="text-sm font-semibold ml-4">Standard Ticket: Tickets {Number}</p>
+            <p className="text-sm font-semibold ml-5">Standard Ticket: Ticket #1</p>
 
             <div className="flex flex-col w-[390px] h-[200px] self-center mt-2 border-t-2 border-[#4872C6] bg-white ">
 
@@ -25,13 +30,21 @@ export default function Detail() {
                 
 
                 <label htmlFor="full-name" className="text-sm font-medium ml-1">Full Name</label>
-                <input type="text" id="full-name" placeholder="Enter Attendee full name" className="border border-[#828282B2] w-[350px] h-[35px] rounded-lg px-3 ml-1"/>
+                <input type="text" id="full-name" placeholder="Enter Attendee full name" className="border border-[#828282B2] w-[350px] h-[35px] rounded-sm px-3 ml-1"/>
                 <label htmlFor="email" className="text-sm font-medium ml-1">E-mail</label>
-                <input type="email" id="email" placeholder="Enter your e-mail" className="border border-[#828282B2] w-[350px] h-[35px] rounded-lg px-3 ml-1"/>
+                <input type="email" id="email" placeholder="Enter your e-mail" className="border border-[#828282B2] w-[350px] h-[35px] rounded-sm px-3 ml-1"/>
                 <label htmlFor="phone" className="text-sm font-medium ml-1">Phone</label>
-                <input type="email" id="phone" placeholder="Enter Attendee Phone Number" className="border border-[#828282B2] w-[350px] h-[35px] rounded-lg px-3 ml-1"/>
+                <PhoneInput
+                    country={'bj'} // indicatif par défaut : Bénin
+                    value={phone}
+                    onChange={setPhone}
+                    containerClass="w-[340px] h-[35px] ml-1 border border-[#828282B2] rounded-sm"
+                    inputClass="!w-full !h-full !text-sm !pl-10"
+                />
 
             </form>
+
+                <p className="text-sm px-1 mt-3">I accept the<span className="text-sm text-blue-500">Terms of Service</span>and i have read the <span className="text-sm text-blue-500">Privacy Policy</span></p>
 
             </div>
            
