@@ -25,15 +25,21 @@ function App() {
 
   return (
     <>
+
     <BrowserRouter>
+
     <Routes>
+
     <Route path='/userprofile' element={<UserProfile />}>
+
       <Route index element={<AccountInfo/>} />
       <Route path='account-info' element={<AccountInfo/>} />
       <Route path='change-email' element={<ChangeEmail/>} />
       <Route path='password' element={<Password/>} />
+
     </Route>
-    <Route path='/share' element={<ShareInterests />} />
+    
+    <Route path='/share-interests' element={<ShareInterests />} />
     <Route path='/order-summary' element={<Order />} />
     <Route path='/details' element={<Detail />} />
     <Route path='/share' element={<Share />} />
@@ -49,8 +55,11 @@ function App() {
     <Route path='/event-info' element ={<EventInfo />} />
     <Route path='/search-result' element ={<SearchResults />} />
     <Route path='/favoris' element ={<InterestedEvents />} />
+
     </Routes>
+
     </BrowserRouter>
+
     </>
   )
 }

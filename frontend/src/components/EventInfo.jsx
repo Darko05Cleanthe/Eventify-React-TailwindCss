@@ -57,9 +57,9 @@ export default function EventInfo() {
 
         <HeaderProfile />
  
-            <div className="relative flex flex-col flex-grow w-full max-w-screen-lg mx-auto mb-32">
+            <div className="relative flex flex-col flex-grow w-full min-w-[90%] mx-auto mb-32">
 
-                <button className="cursor-pointer"><img src="/LeftArrow.png" alt="" className="absolute top-0 w-8"/></button>
+                <button className="cursor-pointer"><img src="/LeftArrow.png" alt="" className="absolute top-0 left-16 w-8"/></button>
                 <img src="/e-info.png" alt="" className="flex mx-auto mt-8 w-[900px] h-[400px] aspect-square rounded-lg"/>
                 <p className="font-bold text-2xl mx-16 mt-3">Sound Of Christmas 2023</p>
 
@@ -72,8 +72,8 @@ export default function EventInfo() {
 
                 <div className="relative flex flex-row ">
 
-                <h3 className="font-semibold mx-16 mt-4">Date & Time</h3>
-                <Link to='' className="absolute flex font-sans font-bold bg-[#FFE047] text-[#2B293D] rounded-lg px-8 w-[180px] text-nowrap text-sm h-[40px] items-center gap-1 right-0 mt-2 mx-16"><img src="/Vector.png" alt="Ticket" className="-mt-1"/>Buy Tickets</Link>
+                    <h3 className="font-semibold mx-16 mt-4">Date & Time</h3>
+                    <Link to='' className="absolute flex font-sans font-bold bg-[#FFE047] text-[#2B293D] rounded-lg px-8 w-[180px] text-nowrap text-sm h-[40px] items-center gap-1 right-0 mt-2 mx-16"><img src="/Vector.png" alt="Ticket" className="-mt-1"/>Buy Tickets</Link>
 
                 </div>
 
@@ -95,8 +95,8 @@ export default function EventInfo() {
 
                 <div className="flex flex-col self-end -mt-16 mr-16">
                     
-                <p className="font-bold text-lg mt-3">Ticket Information</p>
-                <p className="flex flex-row gap-2 text-sm"><img src="/Vector.png" alt="Ticket" className="aspet-square"/>Standard Ticket: <span className="text-sm">200$ each</span></p>
+                    <p className="font-bold text-lg mt-3">Ticket Information</p>
+                    <p className="flex flex-row gap-2 text-sm"><img src="/Vector.png" alt="Ticket" className="aspet-square"/>Standard Ticket: <span className="text-sm">200$ each</span></p>
 
                 </div>
 
@@ -140,6 +140,7 @@ export default function EventInfo() {
                     <em className="font-['montserrat'] text-sm">City Youth Movement invites you to the 4th edition of our annual Christmas festivities - by the youth and for the youth! Feat. your favourite worship leaders, carols, quizzes and some exciting surprises!</em>
                     <p className="font-['montserrat'] text-sm">Bring your family and friends and sing along your favourite Christmas carols on the 2nd of December, 6:30 PM onwards at the Balgandharva Rang Mandir, Bandra West. Book your tickets now!</p>
                     <p className="font-['montserrat'] text-sm font-bold">3 Reasons to attend the event</p>
+
                     <ul>
 
                         <li className="font-['montserrat'] text-sm">1.  The FIRST Christmas concert of Mumbai!</li>
@@ -152,14 +153,14 @@ export default function EventInfo() {
 
                 <h1 className="font-semibold text-xl mx-16 mt-10">Tags</h1>
 
-                <div className="grid grid-cols-5 mx-10 mt-6">
+                <div className="grid grid-cols-5 mx-20 mt-6">
 
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3 whitespace-nowrap">Holiday Concert</button>
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3 whitespace-nowrap">Live Performance</button>
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3 whitespace-nowrap">Seasonal Event</button>
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3 whitespace-nowrap">Family Friendly</button>
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3">#Chritsmas_Spirit</button>
-                    <button className="bg-[#F8F7FA] border-2 border-[#F8F7FA] text-sm font-['montserrat'] px-3 mt-3 ml-4">#Chritsmas_Carols</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">Holiday Concert</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">Live Performance</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">Seasonal Event</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">Family Friendly</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">#Chritsmas_Spirit</button>
+                    <button className="bg-[#F8F7FA] border text-sm font-['montserrat'] px-1 whitespace-nowrap rounded-lg hover:bg-slate-400">#Chritsmas_Carols</button>
 
                 </div>
 
@@ -167,15 +168,15 @@ export default function EventInfo() {
 
                 <div className="flex flex-row">
 
-                <button className="cursor-pointer"><img src="/SlideRightArrow.png" alt="" className="absolute w-8 scale-x-[-1]"/></button>
+                    <button className="cursor-pointer"><img src="/SlideRightArrow.png" alt="" className="absolute w-8 left-16 scale-x-[-1]"/></button>
 
-                <div className="grid grid-cols-3 mx-16 mt-10 w-full">
+                <div className="grid grid-cols-3 mx-16 mt-10 w-full pl-20">
 
-                {Info.map((event,index) => (<Link key={index} to={event.path}><Event key={index} {...event}/></Link>))}
-
+                    {Info.map((event,index) => (<Link key={index} to={event.path}><Event key={index} {...event}/></Link>))}
+    
                 </div>
 
-                <button className="cursor-pointer"><img src="/SlideRightArrow.png" alt="" className="absolute w-8 right-0"/></button>
+                    <button className="cursor-pointer"><img src="/SlideRightArrow.png" alt="" className="absolute w-8 right-16"/></button>
                 
                 </div>
 

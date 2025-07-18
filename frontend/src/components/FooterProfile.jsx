@@ -5,9 +5,9 @@ export default function FooterProfile() {
     
         return <section className="flex flex-col items-center justify-end px-4 bg-white">
     
-            <div className="relative w-full max-w-screen-lg mx-auto h-[50px] bg-[#2B293D] aspect-auto">
+            <div className="relative w-full mx-auto h-[50px] bg-[#2B293D] aspect-auto">
     
-                <div className="relative flex flex-row flex-1 w-full max-w-screen-xl mx-auto h-[300px] -top-7 bg-[#2B293D] my-auto gap-5">
+                <div className="relative flex flex-row flex-1 w-full mx-auto h-[300px] -top-7 bg-[#2B293D] my-auto gap-5 gap-x-20">
                     
                     <nav className="flex flex-col">
                         <h2 className="mx-10 py-6 font-[montserrat] text-white text-md">Company Info</h2>
@@ -53,8 +53,13 @@ export default function FooterProfile() {
                         <button onClick={() => window.location.href = 'https://www.apple.com/fr/app-store/'} className="w-[154px] h-auto cursor-pointer my-3 mx-10"><img src="/app-store.png" alt="Telecharger sur App-Store" className="w-[154px] h-auto" /></button>
                     </nav>
                     
-                    <hr className='absolute border border-t-1 w-[820px] border-[#A9A9A980] left-[110px] top-[263px]'/>
-                    <p className="absolute top-[270px] left-[360px] text-[#A9A9A9]">&copy; 2023 Eventify. All rights reserved.</p>
+                </div>
+
+                <div className="relative w-full flex flex-col items-center bg-[#2B293D] pb-1 -mt-20">
+
+                    <hr className='absolute border w-[950px] border-[#A9A9A980] mt-7' />
+                    <p className="text-[#A9A9A9] text-sm mt-9">&copy; 2023 Eventify. All rights reserved.</p>
+
                 </div>
     
             </div>

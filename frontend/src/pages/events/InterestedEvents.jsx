@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import FooterProfile from "../../components/FooterProfile"
 import HeaderProfile from "../../components/SimpleHeader"
 
@@ -10,7 +9,7 @@ export default function InterestedEvents() {
 
         <HeaderProfile />
 
-            <div className="flex flex-grow w-full max-w-screen-lg mx-auto">
+            <div className="flex flex-grow min-w-[90%] mx-auto">
 
                 <button className="cursor-pointer"><img src="/LeftArrow.png" alt="" className="absolute w-8 top-[73px]"/></button>
                 <p className="text-2xl font-semibold mt-5 ml-12">Interested Events</p>

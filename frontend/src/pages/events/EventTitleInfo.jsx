@@ -9,18 +9,19 @@ export default function EventTitleInfo() {
 
         <HeaderProfile />
 
-        <div className="relative flex flex-col flex-grow w-full max-w-screen-lg mx-auto">
+        <div className="relative flex flex-col flex-grow min-w-[90%] mx-auto">
 
             <Link to='/create-event'><img src="/fleche.png" alt="" className="relative w-5 h-auto top-14 ml-6"/></Link>
+            
             <p className="font-[montserrat] text-[#2D2C3C] font-bold text-xl m-8 mx-20 my-8">Event Title</p>
             <h4 className="text-left font-[montserrat] font-medium text-lg ml-20">Location</h4>
             <h4 className="text-left font-[montserrat] font-medium text-lg ml-20">Time</h4>
-            <img src="/Progress3.png" alt="" className="h-10 mx-14 px-6 my-5"/>
-            <p className="font-[montserrat] text-[#2D2C3C] font-lg text-sm m-8 mx-20 my-8">Nearly there! Check everything’s correct.</p>
+            <img src="/Progress3.png" alt="" className="h-12 mx-14 px-6 my-5"/>
+            <p className="font-[montserrat] text-[#2D2C3C] font-lg text-sm m-8 mx-20 my-8">Nearly there! Check everything's correct.</p>
 
-            <div className="flex flex-col h-[1050px] border-2 border-[#2B293D] rounded-xl mx-36">
+            <div className="flex flex-col min-w-fit min-h-fit border-2 border-[#2B293D] rounded-xl mx-60 mb-20 pb-8">
 
-                <img src="/EventDefaultImage.png" alt="" className="h-[250px] mx-1 px-6 my-5"/>
+                <img src="/EventDefaultImage.png" alt="" className="h-[320px] mx-1 px-6 my-5"/>
                 <p className="font-[montserrat] text-[#2D2C3C] font-extrabold text-2xl m-8 my-3">Event Title</p>
 
                 <div className="flex flex-row">
@@ -49,10 +50,10 @@ export default function EventTitleInfo() {
 
             </div>
 
-            <div className="flex flex-row my-5 justify-end mr-6 items-center gap-5 mb-20">
+            <div className="flex flex-row my-5 justify-end mr-28 items-center gap-5 mb-20">
 
-                <Link to='' className="flex font-sans font-bold bg-[#FFE047] text-[#2B293D] rounded-lg px-8 w-[180px] text-nowrap text-sm h-[40px] items-center">Save for Later</Link>
-                <Link to='' className="flex font-sans font-bold bg-[#2B293D] text-white rounded-lg px-8 w-[180px] text-nowrap text-sm h-[40px] items-center">Publish Event</Link>
+                <Link to='' className="flex font-sans font-bold bg-[#FFE047] text-[#2B293D] rounded-lg px-11 w-[180px] text-nowrap text-sm h-[40px] items-center">Save for Later</Link>
+                <Link to='' className="flex font-sans font-bold bg-[#2B293D] text-white rounded-lg px-11 w-[180px] text-nowrap text-sm h-[40px] items-center">Publish Event</Link>
         
             </div>
             

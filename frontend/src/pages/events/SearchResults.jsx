@@ -160,9 +160,9 @@ export default function SearchResults() {
 
         <HeaderProfile />
  
-            <div className="relative flex flex-col flex-grow w-full max-w-screen-lg mx-auto mb-32">
+            <div className="relative flex flex-col flex-grow min-w-[90%] mx-auto mb-32">
                 
-                <div className="relative flex h-[250px] bg-[#2B293D] items-center justify-center">
+                <div className="relative flex min-w-[1319px] h-[250px] bg-[rgba(43,41,61,0.9)] items-center justify-center">
 
                     <p className="text-white text-2xl font-bold text-center tracking-wide">Explore a world of events. Find what excites you!</p>
 

@@ -29,7 +29,7 @@ export default function SelectTickets() {
 
             <p className="w-full px-5 bg-white">Select Tickets</p>
 
-            <div className="flex flex-row mx-5 my-3">
+            <div className="flex flex-row mx-5 my-3 mb-1">
 
                 <p className="text-sm">Tickets Type</p>
                 <p className="ml-auto text-sm">Quantity</p>
@@ -38,13 +38,13 @@ export default function SelectTickets() {
 
             <div className="flex flex-row w-full bg-white">
 
-            <div className="w-5 h-[80px] bg-green-600"></div>
+                <div className="w-5 h-[80px] bg-green-600"></div>
 
-            <div className="self-center mx-5 font-bold">Standard Tickets <br />
-             
-                <p className="mt-3">Price</p>
+                <div className="self-center mx-5 font-bold">Standard Tickets <br />
+                
+                    <p className="mt-3">Price</p>
 
-            </div>
+                </div>
             
             </div>
 

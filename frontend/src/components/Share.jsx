@@ -8,7 +8,7 @@ export default function Share() {
 
     return <section className="flex flex-col min-h-screen bg-slate-400 items-center justify-center">
 
-        <div className="relative flex flex-col w-[400px] h-[200px] bg-white">
+        <div className="relative flex flex-col min-w-fit h-[200px] bg-white">
 
                 <p className="w-full flex font-sans text-lg font-medium justify-center bg-white">Share with friends</p>
                 <button className="absolute cursor-pointer right-0"><img src="/Closebutton.png" alt="" className="w-5 h-auto"/></button>
@@ -23,7 +23,7 @@ export default function Share() {
 
                 </div>
 
-                <div className="flex flex-row w-[300px] h-[60px] ml-12 mt-5 border-2 justify-between">
+                <div className="flex flex-row w-[300px] h-[60px] mx-5 mt-5 border-2 justify-between">
  
                     <p className='m-1'>Event URL</p>
                     <FontAwesomeIcon icon={faCopy} className='text-slate-500 text-lg cursor-pointer mt-1'/>

@@ -10,9 +10,9 @@ export default function ShareInterests() {
 
         <HeaderProfile />
 
-            <div className="relative flex flex-col flex-grow w-full max-w-screen-lg h-fit mx-auto gap-y-4 pb-20">
+            <div className="relative flex flex-col flex-grow min-w-[90%] h-fit mx-auto gap-y-4 pb-20">
 
-                <button className="cursor-pointer"><img src="/LeftArrow.png" alt="" className="absolute top-0 mt-10  flex w-8 h-auto mt-auto "/></button>
+                <button className="cursor-pointer"><img src="/LeftArrow.png" alt="" className="absolute top-10 mt-10  flex w-8 h-auto mt-auto "/></button>
                 <p className="text-2xl font-semibold mt-5 ml-8">Share your interests with us</p>
                 <p className="flex self-start ml-8">Choose your interests below to get personalized event suggestions</p>
 

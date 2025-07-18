@@ -5,7 +5,7 @@ function Categories({imgUrl,title}) {
     return <div className="flex flex-col items-center justify-center">
 
         <img src={imgUrl} alt={title} className="w-16 h-auto rounded-full"/>
-        <p className="flex text-sm font-medium ">{title}</p>
+        <p className="flex text-sm font-medium">{title}</p>
 
     </div>
 
@@ -13,12 +13,12 @@ function Categories({imgUrl,title}) {
 
 export function Event({imgUrl,eventCategorie,title,month,day,location,time,price,isFree}) {
 
-    return <div className="relative self-center">
+    return <div className="relative mx-auto">
 
-        <img src={imgUrl} alt={title} className="h-[150px] rounded-lg"/>
+        <img src={imgUrl} alt={title} className="w-[300px] h-[150px] rounded-lg"/>
         <p className="absolute top-[122px] bg-yellow-300 text-black text-sm font-['montserrat'] p-1 rounded-tr-sm rounded-br-sm">{eventCategorie}</p>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-2">
 
         <div className="relative flex flex-col items-start m-2">
 
@@ -27,7 +27,7 @@ export function Event({imgUrl,eventCategorie,title,month,day,location,time,price
 
         </div>
 
-        <div className="flex flex-col -ml-[105px]">
+        <div className="flex flex-col -ml-[135px]">
 
             <p className="font-medium font-['montserrat'] text-lg">{title}</p>
             <p className="text-sm font-['montserrat']">{location}</p>
@@ -165,16 +165,16 @@ export default function HomeContent() {
 ]
 
 
-    return (<section className="flex flex-col min-h-screen">
+    return (<section className="flex flex-col min-h-screen min-w-[90%] overflow-x-hidden">
 
-        <main className="flex flex-col flex-grow w-full max-w-screen-lg mx-auto mb-10">
+        <main className="flex flex-col flex-grow w-full mx-auto mb-10 ml-6">
 
             <h2 className="text-xl font-['montserrat'] font-bold m-14">Explore Categories</h2>
 
-            <div className="flex flex-row space-x-6 items-center justify-center -mt-8">
+            <div className="flex flex-row space-x-6 items-center justify-center -mt-8 gap-x-14">
 
             {
-                EventCategories.map((i,index) => (<Link to={i.path || "#"} key={index}><Categories {...i}/></Link>))
+                EventCategories.map((i,index) => (<Link to={i.path || "#"} key={index} className="hover:scale-105 -ml-8"><Categories {...i}/></Link>))
             }
 
             </div>
@@ -213,10 +213,10 @@ export default function HomeContent() {
 
             <button className="flex border-2 border-black w-[250px] py-1 items-center justify-center self-center mt-8">See More</button>
 
-            <div className="relative">
+            <div className="relative flex h-72">
 
-            <img src="/PersonalizedRecommendations.png" alt="" className="scale-90 ml-2 items-center justify-center mt-16"/>
-            <Link to='/share-interests' className="absolute top-[182px] left-[430px] p-2 text-center text-yellow-300 text-xl w-[179px] h-[50px] border-2 border-[#2D2C3C] bg-[#2D2C3C] rounded-lg">Get Started</Link>
+                <img src="/PersonalizedRecommendations.png" alt="" className="absolute w-full max-w-screen-lg mt-16 right-[190px]"/>
+                <Link to='/share-interests' className="absolute top-[183px] left-[550px] p-2 text-center text-yellow-300 text-xl w-[200px] h-[53px] border-2 border-[#2D2C3C] bg-[#2D2C3C] rounded-lg">Get Started</Link>
 
             </div>
 
@@ -225,7 +225,7 @@ export default function HomeContent() {
             <div className="grid grid-cols-3 ml-14">
 
                 {
-                    EventInfo.map((event,index) => (<Link key={index} to={event.path}><Event {...event} /></Link>))
+                    EventInfo.map((event,index) => (<Link key={index} to={event.path} className=""><Event {...event} /></Link>))
                 }
 
             </div>
